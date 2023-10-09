@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_contents_content_carrousel_infos",
+  "info": {
+    "displayName": "content-carrousel-info",
+    "icon": "question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "carrousel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.carrousel-info"
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "button_url": {
+      "type": "string"
+    }
+  }
+}

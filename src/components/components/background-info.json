@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_components_background_infos",
+  "info": {
+    "displayName": "background-info",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "aling_image": {
+      "type": "enumeration",
+      "enum": [
+        "right",
+        "left"
+      ]
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

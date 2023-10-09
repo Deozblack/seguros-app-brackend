@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_components_content_aling_texts",
+  "info": {
+    "displayName": "content-aling-text",
+    "icon": "chartBubble",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "aling_image": {
+      "type": "enumeration",
+      "enum": [
+        "right",
+        "left"
+      ]
+    }
+  }
+}

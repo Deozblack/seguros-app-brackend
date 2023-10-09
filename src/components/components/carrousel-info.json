@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_components_carrousel_infos",
+  "info": {
+    "displayName": "carrousel-info",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

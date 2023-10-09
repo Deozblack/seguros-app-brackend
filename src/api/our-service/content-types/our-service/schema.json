@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_services",
+  "info": {
+    "singularName": "our-service",
+    "pluralName": "our-services",
+    "displayName": "our-service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "components.background-info",
+        "components.content-aling-text",
+        "components.content-text",
+        "components.content-hero",
+        "contents.content-carrousel-info"
+      ]
+    }
+  }
+}

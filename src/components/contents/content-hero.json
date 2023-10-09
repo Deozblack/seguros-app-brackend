@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_contents_content_heroes",
+  "info": {
+    "displayName": "content-hero",
+    "icon": "landscape",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.content-hero",
+      "max": 3
+    }
+  }
+}

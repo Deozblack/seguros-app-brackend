@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "blog"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "components.background-info",
+        "components.blog",
+        "components.content-hero",
+        "components.content-text",
+        "contents.content-carrousel-info"
+      ]
+    }
+  }
+}

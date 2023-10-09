@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_contents_content_team_lists",
+  "info": {
+    "displayName": "content-team-list",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "worker": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.team-list"
+    }
+  }
+}

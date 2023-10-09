@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_blogs",
+  "info": {
+    "displayName": "blog",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "relation_details": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog-detail.blog-detail"
+    }
+  }
+}

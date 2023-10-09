@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "about-us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "components.background-info",
+        "components.blog",
+        "components.content-hero",
+        "components.content-text",
+        "contents.content-carrousel-info",
+        "components.content-aling-text",
+        "contents.content-team-list"
+      ]
+    }
+  }
+}
